@@ -12,7 +12,6 @@
   },
   "license": "MIT",
   "private": true,
-  "type": "module",
   "scripts": {
     "prepare": "husky install",
     "lint": "eslint --cache --ext .js --ignore-path .gitignore .",

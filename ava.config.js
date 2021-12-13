@@ -1,4 +1,3 @@
-module.exports = {
+export default {
   files: ['test/**/*'],
 }
-

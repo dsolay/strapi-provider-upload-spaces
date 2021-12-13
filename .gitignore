@@ -114,3 +114,5 @@ build
 .strapi-updater.json
 
 .eslintcache
+
+.node-version

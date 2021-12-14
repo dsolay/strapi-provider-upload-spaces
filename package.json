@@ -6,12 +6,26 @@
   "directories": {
     "lib": "./lib"
   },
+  "keywords": [
+    "strapi",
+    "upload",
+    "aws",
+    "s3",
+    "spaces",
+    "webp",
+    "sharp",
+    "resize",
+    "optimize"
+  ],
   "author": {
     "name": "Roman Gonzalez",
     "email": "roman.gonzalez.ea@gmail.com"
   },
   "license": "MIT",
-  "private": true,
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/dsolay/strapi-provider-upload-spaces.git"
+  },
   "scripts": {
     "prepare": "husky install",
     "lint": "eslint --cache --ext .js --ignore-path .gitignore .",

@@ -1,6 +1,6 @@
 {
   "name": "strapi-provider-upload-spaces",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Digital Ocean Spaces provider for strapi upload",
   "main": "./lib",
   "directories": {
@@ -28,9 +28,12 @@
   },
   "scripts": {
     "prepare": "husky install",
-    "lint": "eslint --cache --ext .js --ignore-path .gitignore .",
-    "format:check": "prettier --check '**/*.js'",
-    "format": "prettier --write '**/*.js'",
+    "lint": "yarn eslint && yarn run prettier:check",
+    "lint:fix": "yarn run eslint:fix && yarn run prettier:fix",
+    "eslint": "eslint --cache --ext .js --ignore-path .gitignore .",
+    "eslint:fix": "yarn eslint --fix",
+    "prettier:check": "prettier --check '**/*.js'",
+    "prettier:fix": "prettier --write '**/*.js'",
     "test": "ava"
   },
   "dependencies": {

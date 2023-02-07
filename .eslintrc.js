@@ -3,7 +3,7 @@ module.exports = {
   env: {
     commonjs: true,
     node: true,
-    es2021: true,
+    es2022: true,
     browser: false,
   },
   globals: {
